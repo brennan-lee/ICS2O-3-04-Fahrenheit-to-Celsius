@@ -19,7 +19,7 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  * Math
  */
- function calculate() {
+function calculate() {
   // input
   const r = parseInt(document.getElementById("radius").value)
 
