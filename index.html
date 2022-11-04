@@ -63,17 +63,41 @@
           width="25%"
           height="25%"
         />
+        <h3>Volume of a Sphere!</h3>
+        <h4></h4>
+        <h5>Formula:</h5>
+        <!-- Image -->
         <p></p>
-        <!-- Raised button with ripple -->
+        <img
+          src="./images/Screenshot 2022-11-03 13.48.15.png"
+          alt="sphere.svg"
+          width="200"
+          height="200"
+        />
+        <h5>V= 4/3πr³</h5>
+        <!-- First text box | Numeric Textfield with text beside textbox -->
+        <form action="#">
+          Radius:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="radius"
+              aria-label="Radius"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <!-- Raised button with ripple for math -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()"
+          onclick="calculate()"
         >
-          Say "Hello, World!"
+          Math!!
         </button>
-        <!-- basic text -->
         <p></p>
-        <div id="hello-world"></div>
+        <div id="math"></div>
       </main>
     </div>
   </body>
