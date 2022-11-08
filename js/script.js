@@ -21,7 +21,7 @@ if (navigator.serviceWorker) {
  */
 function calculate() {
   // input
-  const r = parseInt(document.getElementById("radius").value)
+  const fahrenheit = parseInt(document.getElementById("fahrenheit").value)
 
   // process
   const math = ((fahrenheit - 32) * 5) / 9
